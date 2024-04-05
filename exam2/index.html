@@ -2,21 +2,66 @@
 
 <head>
 
-    <title>MIS 3033 Exam 2 Spring 2024 [exam code here] Daniel Tanui</title>
+    <title>MIS 3033 Exam 2 Spring 2024 [FACP] Daniel Tanui</title>
 
     <link rel="icon" href="static/img/head2.png" />
     <link rel="stylesheet" href="static/site.css"/>
 
     <style>
+        #headerdiv 
+        {
+            width:1000px;
+            height:100px;
+            /*background-color: lightgoldenrodyellow;*/
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: center;
+  
+        }
+        #contentsdiv
+        {
+            /*background-color:maroon;*/
+            display:flex;
+            flex-direction:row;
+            
+        }
+        #leftdiv 
+        {
+            border-style: solid;
+            border-width: 2px;
+            border-color: darkgray;
+            border-radius: 10px;
+            width: 480px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            /*background-color:greenyellow;*/
+        }
+        #rightdiv
+        {
+           /* background-color:chocolate;*/
+        }
 
+        #footerdiv 
+        {
+            width: 1000px;
+            height: 50px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+
+        }
     </style>
 </head>
 
 <body>
-    [Exam Code]
+    [FACP]  
  
-    <img src="static/img/a.svg"style="height:50px;"/>
-    <img src="static/img/b.svg"style="height:50px;"/>
+    <!--<img src="static/img/a.svg"style="height:50px;"/>
+  
     <img src="static/img/css.svg"style="height:50px;"/>
     <img src="static/img/head1.png"style="height:50px;"/>
     <img src="static/img/head2.png"style="height:50px;"/>
@@ -24,8 +69,82 @@
     <img src="static/img/javascript.svg"style="height:50px;"/>
     <img src="static/img/linkedin.png"style="height:50px;"/>
     <img src="static/img/logo.svg"style="height:50px;"/>
-    <img src="static/img/sqlite.svg"style="height:50px;"/>
+    <img src="static/img/sqlite.svg"style="height:50px;"/>-->
+
+    <div id="headerdiv">
+
+        <div>
+            <span style="font-size:30pt; color:dodgerblue; font-weight:bold; text-transform:uppercase;">I LOVE PROGRAMMING!</span>
+        </div>
+
+        <div> 
+            <img src="static/img/a.svg" style="height:100px;" />
+        </div>
+        
+
+    </div>
+
+
+    <div id="contentsdiv">
+
+        <div id="leftdiv">
+
+            <div>
+                <span style="color:dodgerblue; font-size:20pt; font-weight:bold;">I LOVE MIS 3033</span>
+            </div>
+
+            <div>
+                <img src="static/img/b.svg" style="width:400px;" />
+            </div>
+
+        </div>
+
+        <div id="rightdiv">
+
+            <div style="width:480px; border-width:2px; border-color:darkgray; border-radius:10px; border-style:solid;">
+
+                <span style="font-size:20px; font-weight:bold; background-color:lightskyblue; border-radius:5px;">
+                    What I already learned:
+                </span>
+                <ul>
+                    <li>C#</li>
+                    <li>C# Entity Framework</li>
+                    <li>Database Sqlite</li>
+                    <li>HTML & CSS</li>
+                </ul>
+
+            </div>
+
+            <div style="width:480px; border-width:2px; border-color:darkgray; border-radius:10px; border-style:solid;">
+
+                <span style="font-size:20px; font-weight:bold; border-radius:5px;">
+                    What I am going to learn next:
+                </span>
+                <ol>
+                    <li>JavaScript</li>
+                    <li>BootStrap</li>
+                    <li>ASP.NET MVC</li>
+                    <li>Web RESR API</li>
+                </ol>
+
+            </div>
+
+
+
+        </div>
+
+    </div>
+    <div id="footerdiv">
+
+        <div style="background-color:aliceblue; color:darkgrey; border-radius:5px;">
+        Designed and Developed by Daniel Tanui for MIS 3033 Exam 2
+        </div>
+        
+    </div>
+
+
 
 </body>
 
 </html>
+
